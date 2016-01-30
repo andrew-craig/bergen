@@ -25,11 +25,9 @@ body {
 }
 
 
-/*
-		---------
-		Content
-		---------
-*/
+/**************
+		CONTENT
+**************/
 
 #wrapper {
 	display: flex;
@@ -65,14 +63,16 @@ p {
 	line-height: 1.5em;
 	margin-top: 0.2em;
 	margin-bottom: 1em;
-	/* text-align: justify; */
 }
 
 a {
 	color: #4A4A4A;
 }
 
-/* HEADER */
+/*************
+		HEADER
+*************/
+
 
 .title-text {
 	font-family: 'Merriweather', serif;
@@ -93,7 +93,9 @@ a {
 	margin-bottom: 0;
 }
 
-/* Navigation Bar */
+/**************
+		NAV BAR
+**************/
 
 .nav-bar {
 	list-style: none;
@@ -137,7 +139,10 @@ a {
 	color: #4A90E2;
 }
 
-/* Footer */
+/*************
+		FOOTER
+*************/
+
 #footer-wrapper {
 	position: relative;
 }
@@ -146,11 +151,6 @@ footer{
 	margin: 2em 10% 1em 10%;
 	width: 80%;
 	height: 60px;
-	/*
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	*/
 	order: 99;
 }
 .social-bar {
@@ -201,9 +201,10 @@ footer{
 	display: none;
 }
 
-/*
+/**************
 		CONTENT
-*/
+**************/
+
 .post-header {
 	margin-bottom: 1em;
 }
@@ -260,7 +261,6 @@ footer{
 	text-align: right;
 }
 
-
 .post-footer-author p {
 	color: #646464;
 	margin-top: 0.2em;
@@ -310,10 +310,6 @@ a.share-linkedin:active {
 	color: #0077b5;
 }
 
-.page-intro {
-
-}
-
 .page-intro-left {
 	width: 50%;
 	display: block;
@@ -333,11 +329,10 @@ a.share-linkedin:active {
 }
 
 
-/*
-		---------
-		Pagination
-		---------
-*/
+/*****************
+		PAGINATION
+*****************/
+
 
 nav.pagination {
 	list-style: none;
@@ -384,22 +379,10 @@ nav.pagination a, nav.pagination p {
 nav.pagination a:hover, nav.pagination a:active {
 	color: #4A4A4A;
 }
-/*
-.nav-bar a:hover, .nav-bar a:active {
-color: #4A4A4A;
-}
-*/
-/*
-		---------
-		Mobile Optimization
-		---------
-*/
 
-@media (max-width: 900px) {
-
-
-
-}
+/**************************
+		MOBILE OPTIMIZATION
+**************************/
 
 @media (max-width: 500px) {
 	html {
@@ -423,18 +406,13 @@ color: #4A4A4A;
 	}
 
 
-
-
-	/*------------
-	   Side Bar
-	------------*/
+	/*** MOBILE SIDEBAR **/
 
 	.hamburger {
 		position: absolute;
 		width: 28px;
 		top: 2.1em;
 		left: 5%;
-		/* appearance: none; */
 		z-index: 3;
 		display: block;
 	}
@@ -600,5 +578,4 @@ color: #4A4A4A;
 		-ms-transform: translate3d(0, 0, 0);
 	  transform: translate3d(0, 0, 0);
 	}
-
 }
